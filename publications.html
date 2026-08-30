@@ -3,28 +3,37 @@ layout: default
 title : Publications
 navbar_title: Publications
 body_attr: >-
-  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+  data-spy="scroll" data-target="#navbar-cat" data-offset="100"
 ---
 
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% comment %} Ordered list of categories and their display names. {% endcomment %}
+{% assign cat_keys = "business,cs" | split: "," %}
+{% assign cat_names = "Business / Information Systems,Computer Science / Machine Learning" | split: "," %}
 
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        {% for cat in cat_keys %}
+        {% assign cat_name = cat_names[forloop.index0] %}
+        {% assign cat_pubs = site.publications | where: "category", cat | sort: "date" | reverse %}
+        {% if cat_pubs.size > 0 %}
+        <h2 class="pt-4" id="cat-{{ cat }}">{{ cat_name }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
+            {% for item in cat_pubs %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             {% endfor %}
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 
     <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+        <div id="navbar-cat" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for cat in cat_keys %}
+            {% assign cat_name = cat_names[forloop.index0] %}
+            {% assign cat_pubs = site.publications | where: "category", cat %}
+            {% if cat_pubs.size > 0 %}
+            <a class="nav-link d-block" href="#cat-{{ cat }}">{{ cat_name }}</a>
+            {% endif %}
             {% endfor %}
         </div>
     </div>

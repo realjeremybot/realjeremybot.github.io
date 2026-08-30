@@ -1,6 +1,7 @@
 ---
 title:          "GraphInfer-Bench: Benchmarking LLM's Inference Capability on Graphs"
 date:           2026-06-15 00:01:00 +0800
+category:       "cs"
 selected:       true
 pub:            "arXiv preprint"
 pub_pre:        "Preprint. "

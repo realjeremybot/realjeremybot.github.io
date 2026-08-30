@@ -1,6 +1,7 @@
 ---
 title:          "Federated Meta Embedding Concept Stock Recommendation"
 date:           2024-12-01 00:01:00 +0800
+category:       "business"
 selected:       true
 pub:            "IEEE Transactions on Big Data (TBD)"
 pub_date:       "2024"

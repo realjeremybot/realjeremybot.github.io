@@ -1,6 +1,7 @@
 ---
 title:          "Beyond the Golden Teacher: Enhancing Graph Learning through LLM-GNN Co-teaching"
 date:           2026-06-15 00:00:00 +0800
+category:       "cs"
 selected:       false
 pub:            "arXiv preprint"
 pub_pre:        "Preprint. "
