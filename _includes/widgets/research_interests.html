@@ -7,16 +7,17 @@
                 {% for grp in site.data.profile.research_interests %}
                 <div class="mb-3">
                     <div class="small font-weight-bold text-muted mb-2">{{ grp.group }}</div>
-                    {% for it in grp.items %}
-                    {% if it.url %}
-                    <a href="{{ it.url }}" target="_blank"
-                       class="badge badge-pill badge-light border mr-1 mb-1 px-2 py-1"
-                       style="font-weight: 400; white-space: normal;">{{ it.name }}</a>
-                    {% else %}
-                    <span class="badge badge-pill badge-light border mr-1 mb-1 px-2 py-1"
-                          style="font-weight: 400; white-space: normal;">{{ it.name }}</span>
-                    {% endif %}
-                    {% endfor %}
+                    <ul class="list-unstyled mb-0">
+                        {% for it in grp.items %}
+                        <li class="mb-1">
+                            {% if it.url %}
+                            <a href="{{ it.url }}" target="_blank" style="color: #007bff; text-decoration: underline;">{{ it.name }}</a>
+                            {% else %}
+                            {{ it.name }}
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
                 {% endfor %}
             </div>
