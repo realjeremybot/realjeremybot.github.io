@@ -1,5 +1,5 @@
 ---
-title:          "PatentsNET: A Graph Representation Learning Approach for Predicting Patent Economic Value and Litigation Risk"
+title:          "PatentsNET: Graph-Based Pretraining for Patent Analytics"
 date:           2026-08-15 00:01:00 +0800
 category:       "business"
 selected:       true
