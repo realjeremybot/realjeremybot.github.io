@@ -82,6 +82,17 @@ awards:
 - name: First-Class Academic Scholarship, Sun Yat-sen University
   date: 2014 - 2018
 
+# Chinese patents (inventor). `number` auto-links to Google Patents.
+patents:
+- name: A Method for Locating the Carriage Load-Bearing Region in View Images
+  number: CN114612551A
+- name: A Method for Rapidly Locating the Carriage Load-Bearing Region of a Target Vehicle in Images
+  number: CN114596443A
+- name: Image Segmentation Method, Apparatus, System and Storage Medium
+  number: CN112508968B
+- name: Object Detection Method, Apparatus and Storage Medium
+  number: CN112435223B
+
 # Research interests shown as a card below the profile. Each tag links to a paper.
 research_interests:
 - group: Graph Machine Learning

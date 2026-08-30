@@ -83,7 +83,7 @@
                                 {% for item in site.data.profile.patents %}
                                 <li>
                                     <div class="d-flex">
-                                        <div>{{ item.name }}{% if item.number %} <span class="text-muted no-break">({{ item.number }})</span>{% endif %}</div>
+                                        <div>{{ item.name }}{% if item.number %} <a class="text-muted no-break" href="https://patents.google.com/patent/{{ item.number }}" target="_blank">({{ item.number }})</a>{% endif %}</div>
                                         <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
                                     </div>
                                 </li>
