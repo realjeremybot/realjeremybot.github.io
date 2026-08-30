@@ -100,5 +100,3 @@ research_interests:
     url: https://arxiv.org/abs/2502.10288        # Adversarial Mixup Unlearning
   - name: Federated Learning
     url: https://ieeexplore.ieee.org/document/9919348   # Federated Meta Embedding
-  - name: Patents
-    url: https://aclanthology.org/2024.findings-naacl.121/   # Connecting the Dots (patent phrase graphs)

@@ -75,6 +75,24 @@
                     </div>
                     {% endif %}
 
+                    {% if site.data.profile.patents %}
+                    <div class="col-lg-6">
+                        <div class="mx-2 my-1">
+                            <h6>Patents</h6>
+                            <ul class="list small pl-3 mb-1">
+                                {% for item in site.data.profile.patents %}
+                                <li>
+                                    <div class="d-flex">
+                                        <div>{{ item.name }}{% if item.number %} <span class="text-muted no-break">({{ item.number }})</span>{% endif %}</div>
+                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
                 </div>
 
             </div>
