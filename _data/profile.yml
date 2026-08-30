@@ -81,3 +81,22 @@ experience:
 awards:
 - name: First-Class Academic Scholarship, Sun Yat-sen University
   date: 2014 - 2018
+
+# Research interests shown as a card below the profile. Each tag links to a paper.
+research_interests:
+- group: Graph Machine Learning
+  items:
+  - name: Benchmark
+    url: https://arxiv.org/abs/2606.11562        # GraphInfer-Bench
+  - name: LLM for Graph
+    url: https://arxiv.org/abs/2606.11583        # Beyond the Golden Teacher (LLM-GNN)
+  - name: Agent for Graph
+    url: https://arxiv.org/abs/2608.00542        # Agentic Graph Token Reasoning
+  - name: Graph Biz App.
+    url: https://aclanthology.org/2024.findings-naacl.121/   # Connecting the Dots (patent graphs)
+- group: Regulatory Machine Learning
+  items:
+  - name: Machine Unlearning
+    url: https://arxiv.org/abs/2502.10288        # Adversarial Mixup Unlearning
+  - name: Federated Learning
+    url: https://ieeexplore.ieee.org/document/9919348   # Federated Meta Embedding
