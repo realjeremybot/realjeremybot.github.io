@@ -1,0 +1,6 @@
+pages:
+# NOTE: `name` must match the `navbar_title` field in each page's front matter.
+- name: Home
+  url: /
+- name: Publications
+  url: /publications

@@ -1,0 +1,76 @@
+primary_name: "Zhuoyi (Jeremy) Peng"
+secondary_name: "彭卓艺"
+navbar_name: "Zhuoyi Peng"
+
+positions:
+- name: Ph.D. Candidate in Information Systems
+- name: HKUST Business School
+  logo: /assets/images/badges/hkust_business.jpeg
+
+email: "zpengaf@connect.ust.hk"
+# cv_link: /assets/cv.pdf
+gscholar: 5rEskBUAAAAJ
+github: realjeremybot
+linkedin: zhuoyi-peng-675533282
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am a Ph.D. candidate in Information Systems at the
+    <a href="https://bm.hkust.edu.hk/" target="_blank">HKUST Business School</a>,
+    advised by Prof. <a href="https://www.google.com/search?q=Yi+Yang+HKUST+ISOM" target="_blank">Yi Yang</a>.
+    Before that, I received my M.Phil. in Computer Science and Engineering from HKUST and my
+    B.Eng. in Software Engineering from Sun Yat-sen University.
+  </p>
+  <p>
+    My research develops trustworthy and knowledge-aware machine learning for real-world data and
+    regulatory settings, along two main streams:
+    <strong>(1) Relational Graph Learning</strong> &mdash; LLM agents that reason over graphs,
+    graph&ndash;LLM co-teaching, and structured representation learning; and
+    <strong>(2) Regulatory Machine Learning</strong> &mdash; machine unlearning, patent intelligence,
+    and privacy-aware learning for compliance-sensitive applications such as finance and anti-fraud.
+    My work has appeared at ICLR, NAACL, and IEEE Transactions on Big Data.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.png
+# portrait_caption is optional; omitted for a plain headshot.
+
+education:
+- name: The Hong Kong University of Science and Technology
+  logo: /assets/images/badges/hkust_business.jpeg
+  dept: HKUST Business School
+  position: Ph.D. in Information Systems
+  date: Sep. 2023 - present
+- name: The Hong Kong University of Science and Technology
+  logo: /assets/images/badges/hkust.jpeg
+  dept: Dept. of Computer Science and Engineering
+  position: M.Phil. in Computer Science and Engineering
+  date: Feb. 2019 - Nov. 2021
+- name: Sun Yat-sen University
+  logo: /assets/images/badges/sysu.jpeg
+  dept: School of Software Engineering
+  position: B.Eng. in Software Engineering
+  date: Aug. 2014 - Jun. 2018
+
+experience:
+- name: WeBank
+  position: Research Intern
+  date: Jun. 2025 - Apr. 2026
+- name: HKUST Business School
+  logo: /assets/images/badges/hkust_business.jpeg
+  position: Research Assistant
+  date: Apr. 2022 - Sep. 2023
+- name: Clustar
+  position: Research Intern
+  date: Feb. 2020 - Jan. 2021
+- name: Clustar
+  position: Research Intern
+  date: Apr. 2018 - Jan. 2019
+- name: Tencent
+  position: Product Manager Intern
+  date: Nov. 2017 - Feb. 2018
+
+awards:
+- name: First-Class Academic Scholarship, Sun Yat-sen University
+  date: 2014 - 2018
