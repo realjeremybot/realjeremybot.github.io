@@ -11,5 +11,5 @@ authors:
   - Zhuoyi Peng
   - Yi Yang
 links:
-  ACL Anthology: https://aclanthology.org/events/naacl-2024/
+  ACL Anthology: https://aclanthology.org/2024.findings-naacl.121/
 ---
