@@ -58,6 +58,7 @@ education:
 
 experience:
 - name: WeBank
+  logo: /assets/images/badges/webank.png
   position: Research Intern
   date: Jun. 2025 - Apr. 2026
 - name: HKUST Business School
@@ -65,12 +66,15 @@ experience:
   position: Research Assistant
   date: Apr. 2022 - Sep. 2023
 - name: Clustar
+  logo: /assets/images/badges/clustar.png
   position: Research Intern
   date: Feb. 2020 - Jan. 2021
 - name: Clustar
+  logo: /assets/images/badges/clustar.png
   position: Research Intern
   date: Apr. 2018 - Jan. 2019
 - name: Tencent
+  logo: /assets/images/badges/tencent.png
   position: Product Manager Intern
   date: Nov. 2017 - Feb. 2018
 
