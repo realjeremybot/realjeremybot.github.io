@@ -20,8 +20,9 @@ short_bio: >-
     I am a Ph.D. candidate in Information Systems at the
     <a href="https://bm.hkust.edu.hk/" target="_blank">HKUST Business School</a>,
     advised by Prof. <a href="https://www.google.com/search?q=Yi+Yang+HKUST+ISOM" target="_blank">Yi Yang</a>.
-    Before that, I received my M.Phil. in Computer Science and Engineering from HKUST and my
-    B.Eng. in Software Engineering from Sun Yat-sen University.
+    Before that, I received my M.Phil. in Computer Science and Engineering from HKUST, advised by
+    Prof. <a href="https://www.google.com/search?q=Kai+Chen+HKUST+CSE" target="_blank">Kai Chen</a>
+    (CSE Department), and my B.Eng. in Software Engineering from Sun Yat-sen University.
   </p>
   <p>
     My research develops trustworthy and knowledge-aware machine learning for real-world data and
@@ -45,7 +46,9 @@ education:
 - name: The Hong Kong University of Science and Technology
   logo: /assets/images/badges/hkust.jpeg
   dept: Dept. of Computer Science and Engineering
-  position: M.Phil. in Computer Science and Engineering
+  position: >-
+    M.Phil. in Computer Science and Engineering <br/>
+    Advised by Prof. Kai Chen
   date: Feb. 2019 - Nov. 2021
 - name: Sun Yat-sen University
   logo: /assets/images/badges/sysu.jpeg
