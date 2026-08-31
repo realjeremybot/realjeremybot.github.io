@@ -2,7 +2,7 @@
 title:          "Agentic Graph Token Reasoning"
 date:           2026-08-01 00:01:00 +0800
 category:       "cs"
-selected:       false
+selected:       true
 pub:            "arXiv preprint"
 pub_pre:        "Preprint. "
 pub_date:       "2026"
