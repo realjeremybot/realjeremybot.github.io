@@ -12,5 +12,5 @@ authors:
   - Yixuan Tang
   - Yi Yang
 links:
-  arXiv: https://arxiv.org/abs/2502.10288
+  OpenReview: https://openreview.net/forum?id=GcbhbZsgiu
 ---
