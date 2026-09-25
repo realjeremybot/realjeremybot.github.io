@@ -3,8 +3,7 @@ title:          "Beyond the Golden Teacher: Enhancing Graph Learning through LLM
 date:           2026-06-15 00:00:00 +0800
 category:       "cs"
 selected:       true
-pub:            "arXiv preprint"
-pub_pre:        "Preprint. "
+pub:            "Annual Conference on Neural Information Processing Systems (NeurIPS)"
 pub_date:       "2026"
 abstract: >-
   A co-teaching framework in which an LLM and a GNN supervise each other, moving beyond a single fixed teacher to improve graph representation learning.
