@@ -31,7 +31,7 @@ short_bio: >-
     graph&ndash;LLM co-teaching, and structured representation learning; and
     <strong>(2) Regulatory Machine Learning</strong> &mdash; machine unlearning, patent intelligence,
     and privacy-aware learning for compliance-sensitive applications such as finance and anti-fraud.
-    My work has appeared at ICLR, NAACL, and IEEE Transactions on Big Data.
+    My work has appeared at ICLR, NAACL, NeurIPS and IEEE Transactions on Big Data.
   </p>
 
 portrait_url: /assets/images/photos/portrait.png
@@ -98,16 +98,22 @@ research_interests:
 - group: Graph Machine Learning
   items:
   - name: Benchmark
+    venue: arXiv '26
     url: https://arxiv.org/abs/2606.11562        # GraphInfer-Bench
   - name: LLM for Graph
+    venue: NeurIPS '26
     url: https://arxiv.org/abs/2606.11583        # Beyond the Golden Teacher (LLM-GNN)
   - name: Agent for Graph
+    venue: arXiv '26
     url: https://arxiv.org/abs/2608.00542        # Agentic Graph Token Reasoning
   - name: Graph Biz App.
+    venue: NAACL '24
     url: https://aclanthology.org/2024.findings-naacl.121/   # Connecting the Dots (patent graphs)
 - group: Regulatory Machine Learning
   items:
   - name: Machine Unlearning
+    venue: ICLR '25
     url: https://openreview.net/forum?id=GcbhbZsgiu   # Adversarial Mixup Unlearning (ICLR 2025)
   - name: Federated Learning
+    venue: IEEE TBD '24
     url: https://ieeexplore.ieee.org/document/9919348   # Federated Meta Embedding

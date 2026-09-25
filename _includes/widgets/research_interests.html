@@ -9,11 +9,14 @@
                     <div class="font-weight-bold text-muted mb-1" style="font-size: 0.72rem;">{{ grp.group }}</div>
                     <ul class="list-unstyled mb-0" style="line-height: 1.25;">
                         {% for it in grp.items %}
-                        <li class="mb-0">
+                        <li class="mb-0 d-flex justify-content-between align-items-baseline">
                             {% if it.url %}
                             <a href="{{ it.url }}" target="_blank" style="color: #007bff; text-decoration: underline; font-size: 0.8rem;">{{ it.name }}</a>
                             {% else %}
                             <span style="font-size: 0.8rem;">{{ it.name }}</span>
+                            {% endif %}
+                            {% if it.venue %}
+                            <span class="text-muted no-break ml-1" style="font-size: 0.68rem;">{{ it.venue }}</span>
                             {% endif %}
                         </li>
                         {% endfor %}
