@@ -7,7 +7,7 @@ pub:            "arXiv preprint"
 pub_pre:        "Preprint. "
 pub_date:       "2026"
 abstract: >-
-  A state-of-the-art graph-native agent for graph analysis, featuring token-robust graph-LLM alignment, supervised fine-tuning, and preference optimization.
+  A state-of-the-art graph-native agent for graph analysis, featuring token-robust graph-LLM alignment, trajectory SFT, and preference optimization.
 authors:
   - Zhuoyi Peng
   - Yi Yang
