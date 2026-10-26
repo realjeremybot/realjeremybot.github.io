@@ -7,7 +7,7 @@ pub:            "arXiv preprint"
 pub_pre:        "Preprint. "
 pub_date:       "2026"
 abstract: >-
-  An agentic framework that lets language models reason over graphs at the token level, interleaving retrieval and inference over graph structure.
+  A state-of-the-art graph-native agent for graph analysis, featuring token-robust graph-LLM alignment, supervised fine-tuning, and preference optimization.
 authors:
   - Zhuoyi Peng
   - Yi Yang

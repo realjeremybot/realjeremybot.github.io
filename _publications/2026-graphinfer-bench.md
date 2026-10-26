@@ -7,7 +7,7 @@ pub:            "arXiv preprint"
 pub_pre:        "Preprint. "
 pub_date:       "2026"
 abstract: >-
-  A benchmark that systematically probes how well large language models perform inference over graph-structured data across a diverse suite of reasoning tasks.
+  The first comprehensive benchmark for graph-LLM inference.
 authors:
   - Zhuoyi Peng
   - Jingzhou Jiang

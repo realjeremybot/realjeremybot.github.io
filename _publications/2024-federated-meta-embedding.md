@@ -6,7 +6,7 @@ selected:       true
 pub:            "IEEE Transactions on Big Data (TBD)"
 pub_date:       "2024"
 abstract: >-
-  A federated meta-embedding framework for concept-stock recommendation that learns transferable representations across institutions while keeping sensitive financial data local.
+  A federated learning solution for financial analytics.
 authors:
   - Zhuoyi Peng
   - Yi Yang

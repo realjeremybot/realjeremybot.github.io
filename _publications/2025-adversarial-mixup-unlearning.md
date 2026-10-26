@@ -6,7 +6,7 @@ selected:       true
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2025"
 abstract: >-
-  We regularize machine unlearning with synthesized mixup samples that simulate data most susceptible to catastrophic forgetting, achieving reliable removal without degrading retained knowledge.
+  The first mixup-based method for machine unlearning.
 authors:
   - Zhuoyi Peng
   - Yixuan Tang

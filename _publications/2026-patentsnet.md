@@ -8,7 +8,7 @@ pub_pre:        "Working paper. Major revision at "
 pub_date:       ""
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Major Revision</span>'
 abstract: >-
-  A graph representation learning framework that models patent citation and ownership networks to jointly predict a patent's economic value and its litigation risk.
+  The first graph-pretraining framework for large-scale patent networks.
 authors:
   - Zhitao Yin
   - Yi Yang

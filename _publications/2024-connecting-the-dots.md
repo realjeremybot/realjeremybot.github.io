@@ -6,7 +6,7 @@ selected:       true
 pub:            "Findings of the North American Chapter of the Association for Computational Linguistics (NAACL Findings)"
 pub_date:       "2024"
 abstract: >-
-  We study patent phrase similarity and propose a graph-augmented approach that enriches each phrase with a retrieved phrase graph, capturing the technical semantics that isolated phrases miss.
+  One of the earliest applications of graph retrieval to domain-specific problems.
 authors:
   - Zhuoyi Peng
   - Yi Yang
