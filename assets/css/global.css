@@ -91,11 +91,3 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
-
-.experience-logo {
-    width: 18px;
-    height: 18px;
-    object-fit: contain;
-    flex-shrink: 0;
-    margin: 0.25rem 0.25rem 0 0;
-}
