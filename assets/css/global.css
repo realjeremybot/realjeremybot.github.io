@@ -91,3 +91,23 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+.affiliation-heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.affiliation-logo {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    object-fit: contain;
+    margin-top: 1px;
+}
+
+.affiliation-body {
+    padding-left: 22px;
+}

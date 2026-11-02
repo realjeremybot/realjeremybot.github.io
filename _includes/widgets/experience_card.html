@@ -9,14 +9,16 @@
                             <h6>Education</h6>
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.education %}
-                                <li class="media mb-1">
+                                <li class="mb-1">
+                                    <div class="affiliation-heading">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1 align-self-start">
+                                    <img src="{{ item.logo | relative_url }}" alt="" class="affiliation-logo">
                                     {% else %}
-                                    <span class="mr-1 mt-1 d-inline-block" style="width: 18px;"></span>
+                                    <span class="affiliation-logo"></span>
                                     {% endif %}
-                                    <div class="media-body">
-                                        <div class="small">{{ item.name }}</div>
+                                        <span>{{ item.name }}</span>
+                                    </div>
+                                    <div class="affiliation-body">
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
@@ -36,14 +38,16 @@
                             <h6>Industry Experience</h6>
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experience %}
-                                <li class="media mb-1">
+                                <li class="mb-1">
+                                    <div class="affiliation-heading">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1 align-self-start">
+                                    <img src="{{ item.logo | relative_url }}" alt="" class="affiliation-logo">
                                     {% else %}
-                                    <span class="mr-1 mt-1 d-inline-block" style="width: 18px;"></span>
+                                    <span class="affiliation-logo"></span>
                                     {% endif %}
-                                    <div class="media-body">
-                                        <div class="small">{{ item.name }}</div>
+                                        <span>{{ item.name }}</span>
+                                    </div>
+                                    <div class="affiliation-body">
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
