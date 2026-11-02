@@ -91,3 +91,44 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+.experience-card .row > .col-lg-6 {
+    padding: 0.75rem 1.5rem;
+}
+
+.experience-card h6 {
+    margin-bottom: 1.25rem;
+}
+
+.experience-entry {
+    margin-bottom: 1.5rem;
+}
+
+.experience-entry:last-child {
+    margin-bottom: 0;
+}
+
+.experience-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin: 0.25rem 0.6rem 0 0;
+}
+
+.experience-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    margin-top: 0.25rem;
+}
+
+.experience-details > :first-child {
+    flex: 1 1 14rem;
+}
+
+@media (max-width: 575.98px) {
+    .experience-card .row > .col-lg-6 {
+        padding: 0.75rem;
+    }
+}
