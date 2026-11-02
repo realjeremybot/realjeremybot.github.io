@@ -49,7 +49,8 @@ education:
 - name: Sun Yat-sen University
   logo: /assets/images/badges/sysu.jpeg
   dept: School of Software Engineering
-  position: B.Eng. in Software Engineering (Top 1%)
+  position: B.Eng. in Software Engineering
+  distinction: Top 1%
   date: Aug. 2014 - Jun. 2018
 
 experience:
